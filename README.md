@@ -67,4 +67,4 @@ Theory and measurements mostly align:
 - Deterministic Select is linear in theory but slower in practice due to higher constants.
 - Closest Pair shows n log² n trend, with noticeable constant-factor overhead.
 
-Overall, experiments confirm recurrence analysis. Minor mismatches are explained by implementation details: memory allocations, JVM garbage collection, and cache behavior.
+Overal, experiments confirm recurrence analysis. Minor mismatches are explained by implementation details: memory allocations, JVM garbage collection, and cache behavior.
