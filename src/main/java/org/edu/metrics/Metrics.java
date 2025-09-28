@@ -12,12 +12,22 @@ public class Metrics {
         this.depth = 0;
     }
 
+    public Metrics() {
+        this.name = "metrics";
+        this.comparisons = 0;
+        this.depth = 0;
+    }
+
     public void incrementComparisons() {
         comparisons++;
     }
 
     public void setTime(long time) {
         this.time = time;
+    }
+
+    public void setDepth(int depth) {
+        this.depth = depth;
     }
 
     public void print() {
